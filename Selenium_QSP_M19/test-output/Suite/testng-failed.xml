@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test_01(failed)">
+    <parameter name="browsername" value="Edge"/>
+    <classes>
+      <class name="Scripts_Execution_Cross_Browser.ToLaunchPurplee">
+        <methods>
+          <include name="launchPurplee" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scripts_Execution_Cross_Browser.ToLaunchPurplee -->
+    </classes>
+  </test> <!-- Test_01(failed) -->
+</suite> <!-- Failed suite [Suite] -->

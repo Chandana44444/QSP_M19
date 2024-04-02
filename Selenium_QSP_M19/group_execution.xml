@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test" parallel="true">
+		<groups>
+			<run>
+				<exclude name="mobile"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="Scripts_Execution_Group.ToLaunchNykaa" />
+			<class name="Scripts_Execution_Group.ToLaunchMi" />
+			<class name="Scripts_Execution_Group.ToLaunchLakme" />
+			<class name="Scripts_Execution_Group.ToLaunchOppo" />
+			<class name="Scripts_Execution_Group.ToLaunchVivo" />
+			<class name="Scripts_Execution_Group.ToLaunchWow" />
+			<class name="Scripts_Execution_Group.ToLaunchPurplee" />
+			<class name="Scripts_Execution_Group.ToLaunchMamaEarth" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

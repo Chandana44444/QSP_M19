@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="4" name="Test_01" parallel="true">
+    <classes>
+      <class name="Scripts_Execution.ToLaunchPurplee"/>
+      <class name="Scripts_Execution.ToLaunchWow"/>
+      <class name="Scripts_Execution.ToLaunchNykaa"/>
+      <class name="Scripts_Execution.ToLaunchOppo"/>
+      </classes>
+      </test>
+       <test thread-count="5" name="Test_02">
+    <classes>
+      <class name="Scripts_Execution.ToLaunchVivo"/>
+      <class name="Scripts_Execution.ToLaunchMamaEarth"/>
+      <class name="Scripts_Execution.ToLaunchLakme"/>
+      <class name="Scripts_Execution.ToLaunchMi"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
